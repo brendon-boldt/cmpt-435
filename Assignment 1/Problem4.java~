@@ -1,0 +1,49 @@
+
+public class Problem4 {
+
+	public static void partition(int[] A)
+	{
+		
+		/*
+		Let x = A[0]
+		Re-arrange elements in A, so that after the re-arrangement, suppose x is in position i, that is A[i] = x, you should have A[j] <= x for all j < i and A[j] > x for all j > i. Thus, informally, all the values to the "left" of x are less than (or equal to) x and all values to the right are larger than x.
+		*/
+		
+		
+		
+		
+		
+		
+	}
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int[] A = {4,3,9,2,7,6,5};
+		
+		System.out.println("Before partition:");
+		for(int i = 0; i < A.length; i++)
+		{
+			System.out.print(A[i] + " ");
+			
+		}
+		
+		partition(A);
+		
+		System.out.println("After partition:");
+		
+		System.out.println("Before partition:");
+		for(int i = 0; i < A.length; i++)
+		{
+			System.out.print(A[i] + " ");
+			
+		}
+		
+		
+		
+	}
+
+}
